@@ -18,7 +18,9 @@ const Total = () => {
   
   return (
     <>
-      <Layout>
+      <Layout
+        pagina={'Total'}
+      >
           <h1 className="text-xl md:text-3xl my-4 w-4/5 m-auto">Total</h1>
           <div>
             <form
