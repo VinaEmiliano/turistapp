@@ -21,7 +21,7 @@ const ModalMuseo = () => {
     <div className="flex flex-col text-center p-5 border-2 rounded-lg bg-card">
         <button
             className="text-end mb-3"
-            onClick={() => {handleChangeModal()}}
+            onClick={handleChangeModal}
         >
             X
         </button>
